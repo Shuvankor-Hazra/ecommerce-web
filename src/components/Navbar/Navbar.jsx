@@ -105,7 +105,7 @@ const Navbar = () => {
                                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
                             </span>
                         </a>
-                        <div className="absolute z-[9999] hidden group-hover:block w-[200px] rounded-md bg-white p-2 text-black shadow-md">
+                        <div className="absolute z-[9999] hidden group-hover:block w-[200px] rounded-md bg-white p-2 text-black shadow-md dark:border-gray-800 dark:bg-gray-500 dark:text-white">
                             <ul>
                                 {DropdownItems.map(data => (
                                     <li key={data.id}>
