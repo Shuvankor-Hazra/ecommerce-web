@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import React from "react";
+import Banner from "./components/Banner/Banner";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/Products/Products";
@@ -20,11 +21,12 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className="mb-96">
       <Navbar />
       <Hero />
       <Products />
       <TopProducts />
+      <Banner />
     </div>
   );
 }
