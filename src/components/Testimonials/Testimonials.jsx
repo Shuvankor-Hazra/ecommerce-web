@@ -4,20 +4,20 @@ import Slider from "react-slick/lib/slider";
 const TestimonialData = [
     {
         id: 1,
-        name: "Victor",
+        name: "Victor Banerjee",
         text: "Professionally scale B2B communities before proactive methods of empowerment. Continually incubate revolutionary systems whereas exceptional.",
         img: "https://picsum.photos/101/101",
     },
     {
         id: 2,
-        name: "Satya Nadella",
+        name: "Ranjit Mallick",
         text: "Holisticly strategize ethical infomediaries without optimal testing procedures. Interactively coordinate client-centric convergence for extensive information.",
         img: "https://picsum.photos/102/102",
     },
     {
         id: 3,
         name: "Virat Kohli",
-        text: "Compellingly aggregate state of the art systems without enterprise bandwidth. Dramatically matrix open-source alignments through.",
+        text: "Compellingly aggregate state of the art systems without enterprise bandwidth. Dramatically matrix open-source alignments through without systems.",
         img: "https://picsum.photos/103/103",
     },
     {
@@ -103,10 +103,10 @@ const Testimonials = () => {
                                         <div className="flex flex-col items-center gap-4">
                                             <div className="space-y-3">
                                                 <p className="text-xs text-gray-400">{data.text}</p>
-                                                <h1 className="text-xl font-bold text-black/80 dark:text-light">{data.name}</h1>
+                                                <h1 className="text-xl font-bold text-black/80 dark:text-light dark:text-white">{data.name}</h1>
                                             </div>
                                         </div>
-                                        <p className="text-black/20 text-9xl font-serif absolute top-0 right-0">,,</p>
+                                        <p className="text-black/20 text-9xl font-serif absolute top-0 right-0 dark:text-white">,,</p>
                                     </div>
                                 </div>
                             ))

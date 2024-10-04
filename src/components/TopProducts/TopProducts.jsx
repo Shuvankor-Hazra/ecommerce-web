@@ -29,13 +29,13 @@ const TopProducts = () => {
     const handleOrderPopup = () => { alert("Order Pop Up") };
 
     return (
-        <div>
+        <>
             <div className="container">
                 {/* Header Section */}
-                <div className="mb-20 space-y-2">
+                <div className="mb-24 space-y-2">
                     <p data-aos="fade-up" className="text-sm text-primary">Top Rated Products for you</p>
                     <h1 data-aos="fade-up" className="text-3xl font-bold">Best Products</h1>
-                    <p data-aos="fade-up" className="text-xs text-gray-400">Uniquely embrace long-term high-impact benefits without emerging methods of empowerment. Compellingly enable.</p>
+                    <p data-aos="fade-up" className="text-xs text-gray-400">Uniquely embrace long-term high-impact benefits without emerging methods of empowerment.</p>
                 </div>
 
                 {/* Body Section */}
@@ -76,7 +76,7 @@ const TopProducts = () => {
                     }
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 

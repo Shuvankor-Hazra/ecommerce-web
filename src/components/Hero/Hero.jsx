@@ -8,19 +8,19 @@ const ImageList = [
         id: 1,
         img: Image1,
         title: "Upto 50% off on all Man's Wear",
-        description: "Rapaciously pursue turnkey data after revolutionary collaboration and idea-sharing. Objectively evolve ubiquitous portals after one-to-one convergence. Holistically syndicate leveraged experiences before parallel collaboration and idea-sharing."
+        description: "Rapaciously pursue turnkey data after revolutionary collaboration and idea-sharing. Objectively evolve ubiquitous portals after one-to-one convergence. Holistically syndicate leveraged experiences before."
     },
     {
         id: 2,
         img: Image2,
         title: "Upto 30% off on all Woman's Wear",
-        description: "Progressively grow professional action items via go forward ideas. Compellingly orchestrate B2B data before distinctive alignments. Assertively transition bleeding-edge process improvements and holistic information. Uniquely."
+        description: "Progressively grow professional action items via go forward ideas. Compellingly orchestrate B2B data before distinctive alignments. Assertively transition process improvements and holistic information."
     },
     {
         id: 3,
         img: Image3,
         title: "Upto 70% off on all Products Sale",
-        description: "Authoritatively implement next-generation relationships rather than covalent technology. Competently whiteboard focused niches vis-a-vis cross functional content. Energetically maximize cross-platform expertise through excellent quality vectors. Competently."
+        description: "Authoritatively implement next-generation relationships rather than covalent technology. Competently whiteboard focused niches vis-a-vis cross functional content. Energetically maximize cross-platform expertise."
     },
 ]
 
@@ -85,8 +85,7 @@ const Hero = () => {
                                         <img
                                             src={data.img}
                                             alt="Image1"
-                                            className="w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] sm:scale-105 lg:scale-125 object-contain mx-auto"
-                                        />
+                                            className="w-[300px] h-[300px] sm:w-[450px] sm:h-[450px] sm:scale-105 lg:scale-125 object-contain mx-auto" />
                                     </div>
                                 </div>
                             </div>

@@ -2,6 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import React from "react";
 import Banner from "./components/Banner/Banner";
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/Products/Products";
@@ -23,7 +24,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="mb-60">
+    <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
       <Navbar />
       <Hero />
       <Products />
@@ -32,6 +33,7 @@ const App = () => {
       <Subscribe />
       <Products />
       <Testimonials />
+      <Footer />
     </div>
   );
 }

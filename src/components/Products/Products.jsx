@@ -52,10 +52,10 @@ const Products = () => {
         <div className="mt-14 mb-12">
             <div>
                 {/* Header Section */}
-                <div className="text-center mb-10 max-w-[600px] mx-auto space-y-2">
+                <div className="text-center mb-10 max-w-[550px] mx-auto space-y-2">
                     <p data-aos="fade-up" className="text-sm text-primary">Top Selling Products for you</p>
                     <h1 data-aos="fade-up" className="text-3xl font-bold">Products</h1>
-                    <p data-aos="fade-up" className="text-xs text-gray-400">Uniquely embrace long-term high-impact benefits without emerging methods of empowerment. Compellingly enable.</p>
+                    <p data-aos="fade-up" className="text-xs text-gray-400">Compellingly expedite intermandated expertise after performance based products. Intrinsicly generate timely human capital through visionary.</p>
                 </div>
 
                 {/* Body Section */}
