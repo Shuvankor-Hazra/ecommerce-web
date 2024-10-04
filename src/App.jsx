@@ -5,6 +5,7 @@ import Banner from "./components/Banner/Banner";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/Products/Products";
+import Subscribe from "./components/Subscribe/Subscribe";
 import TopProducts from "./components/TopProducts/TopProducts";
 
 
@@ -21,12 +22,13 @@ const App = () => {
   }, []);
 
   return (
-    <div className="mb-96">
+    <div className="mb-60">
       <Navbar />
       <Hero />
       <Products />
       <TopProducts />
       <Banner />
+      <Subscribe />
     </div>
   );
 }
