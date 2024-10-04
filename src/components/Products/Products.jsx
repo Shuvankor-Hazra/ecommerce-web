@@ -67,15 +67,15 @@ const Products = () => {
                                 data-aos="fade-up"
                                 data-aos-delay={data.aosDelay}
                                 key={data.id}
-                                className="space-y-3"
+                                className="space-y-3 group"
                             >
                                 <img src={data.img} alt=""
-                                    className="h-[220px] w-[150px] object-cover rounded-md"
+                                    className="h-[220px] w-[150px] object-cover rounded-md group-hover:scale-110 duration-200"
                                 />
                                 <div>
                                     <h3 className="font-semibold">{data.title}</h3>
                                     <p className="text-sm text-gray-600">{data.color}</p>
-                                    <div className="flex items-center gap-1 text-lg">
+                                    <div className="flex items-center gap-1">
                                         <FaStar className="text-primary" />
                                         <span>{data.rating}</span>
                                     </div>

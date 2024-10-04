@@ -40,10 +40,10 @@ const Testimonials = () => {
         dots: true,
         arrows: false,
         infinity: true,
-        speed: 500,
+        speed: 900,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 2500,
         cssEase: "linear",
         pauseOnHover: true,
         pauseOnFocus: true,
@@ -91,13 +91,13 @@ const Testimonials = () => {
                             TestimonialData.map((data) => (
                                 <div
                                     key={data.id}
-                                    className="my-6"
+                                    className="my-6 group"
                                 >
-                                    <div className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative"
+                                    <div className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative  cursor-pointer"
                                     >
                                         <div className="mb-4">
                                             <img src={data.img} alt=""
-                                                className="rounded-full w-20 h-20"
+                                                className="rounded-xl w-20 h-20 group-hover:scale-125 duration-200"
                                             />
                                         </div>
                                         <div className="flex flex-col items-center gap-4">
@@ -106,7 +106,7 @@ const Testimonials = () => {
                                                 <h1 className="text-xl font-bold text-black/80 dark:text-light dark:text-white">{data.name}</h1>
                                             </div>
                                         </div>
-                                        <p className="text-black/20 text-9xl font-serif absolute top-0 right-0 dark:text-white">,,</p>
+                                        <p className="text-black/20 text-9xl font-serif absolute -top-5 right-5 dark:text-white">,,</p>
                                     </div>
                                 </div>
                             ))

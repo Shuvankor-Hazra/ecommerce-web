@@ -48,7 +48,7 @@ const Footer = () => {
                     className='grid md:grid-cols-3 pb-44 pt-5'>
                     {/* Company Details */}
                     <div className='py-8 px-4'>
-                        <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3'>
+                        <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 cursor-pointer'>
                             <img src={footerLogo} alt=""
                                 className='max-w-[50px]'
                             />
@@ -93,19 +93,19 @@ const Footer = () => {
                         </div>
 
                         {/* Social Icons */}
-                        <div>
+                        <div className='py-2 px-4'>
                             <div className="flex items-center gap-3 mt-6">
                                 <a href="#">
-                                    <FaInstagram className='text-3xl' />
+                                    <FaInstagram className='text-3xl hover:scale-125 duration-200' />
                                 </a>
                                 <a href="#">
-                                    <FaFacebook className='text-3xl' />
+                                    <FaFacebook className='text-3xl hover:scale-125 duration-200' />
                                 </a>
                                 <a href="#">
-                                    <FaLinkedin className='text-3xl' />
+                                    <FaLinkedin className='text-3xl hover:scale-125 duration-200' />
                                 </a>
                                 <a href="#">
-                                    <FaTwitter className='text-3xl' />
+                                    <FaTwitter className='text-3xl hover:scale-125 duration-200' />
                                 </a>
                             </div>
 
