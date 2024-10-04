@@ -6,6 +6,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Products from "./components/Products/Products";
 import Subscribe from "./components/Subscribe/Subscribe";
+import Testimonials from "./components/Testimonials/Testimonials";
 import TopProducts from "./components/TopProducts/TopProducts";
 
 
@@ -29,6 +30,8 @@ const App = () => {
       <TopProducts />
       <Banner />
       <Subscribe />
+      <Products />
+      <Testimonials />
     </div>
   );
 }
