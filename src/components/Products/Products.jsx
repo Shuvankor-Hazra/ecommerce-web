@@ -85,7 +85,7 @@ const Products = () => {
                     </div>
                     {/* View All Button */}
                     <div className="flex justify-center">
-                        <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
+                        <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md hover:scale-105 duration-200">
                             View All Button
                         </button>
                     </div>

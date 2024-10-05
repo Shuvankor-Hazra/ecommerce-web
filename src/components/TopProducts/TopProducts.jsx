@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { FaStar } from "react-icons/fa6";
 import Img1 from "../../assets/shirt/shirt1.png";
 import Img2 from "../../assets/shirt/shirt2.png";
@@ -24,9 +25,7 @@ const ProductsData = [
     }
 ]
 
-const TopProducts = () => {
-
-    const handleOrderPopup = () => { alert("Order Pop Up") };
+const TopProducts = ({ handleOrderPopup }) => {
 
     return (
         <>
@@ -44,7 +43,7 @@ const TopProducts = () => {
                         ProductsData.map((data) => (
                             <div
                                 data-aos="zoom-in"
-                                className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-secondary hover:text-white relative shadow-xl duration-300 group max-w-[300px]"
+                                className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/70 dark:hover:bg-secondary hover:text-white relative shadow-xl duration-300 group max-w-[300px]"
                                 key={data.id}>
                                 {/* Image Section */}
                                 <div className="h-[100px]">
@@ -65,9 +64,8 @@ const TopProducts = () => {
                                     <h1>{data.title}</h1>
                                     <p className="text-gray-500 group-hover:text-white duration-300 text-sm line-clamp-2">{data.description}</p>
                                     <button
-                                        className="bg-primary hover:scale-105 duration-300 text-white py-2 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary"
-                                        onClick={handleOrderPopup}
-                                    >
+                                        onClick={() => handleOrderPopup()}
+                                        className="bg-primary hover:scale-105 duration-300 text-white py-2 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-primary">
                                         Order Now
                                     </button>
                                 </div>
