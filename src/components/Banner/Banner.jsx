@@ -12,7 +12,7 @@ const Banner = () => {
                     {/* Image Section */}
                     <div data-aos="zoom-in">
                         <img src={BannerImg} alt="BannerImg"
-                            className='max-w-[400px] h-[350px] w-full mx-auto object-cover drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] hover:scale-110 duration-200'
+                            className='max-w-[400px] h-[350px] w-full mx-auto object-cover drop-shadow-[-10px_10px_12px_rgba(0,0,0,1)] hover:scale-105 duration-200'
                         />
                     </div>
                     {/* Text Details Section */}

@@ -57,7 +57,7 @@ const Footer = () => {
                     </div>
 
                     {/* Footer Links */}
-                    <div className='grid grid-cols-3 sm:grid-cols-3 col-span-2 md:pl-10'>
+                    <div className='grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10'>
                         <div>
                             <div className='py-8 px-4'>
                                 <h1 className='sm:text-xl text-xl font-bold sm:text-left text-justify mb-3'>
